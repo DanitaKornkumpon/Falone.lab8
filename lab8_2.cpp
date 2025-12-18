@@ -4,6 +4,26 @@
 using namespace std;
 
 //[Missing Code 1] Write definition of the function findGrade() here.
+char findGrade(double X){
+if(X>90){
+return 'A';
+}
+else if (X>75&&X<=90){
+return 'B';
+}
+else if (X>60&&X<=75){
+return 'C';
+}
+else if (X>45&&X<=60){
+return 'D';
+}
+else if (X<=45){
+return 'F';
+}
+    else{
+        return 0;
+    }
+}
 
 int main(){
 	//Input the number of students
